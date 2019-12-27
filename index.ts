@@ -3,7 +3,7 @@ export default function mergeRefs<
 >(...args: (React.MutableRefObject<T> | React.Ref<T> | undefined)[]) {
   return (value: T) => {
     args.forEach(arg => {
-      if (typeof arg === "function") {
+      if (typeof arg === 'function') {
         arg(value);
       } else if (arg) {
         (arg as React.MutableRefObject<T>).current = value;
