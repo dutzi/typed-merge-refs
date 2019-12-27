@@ -8,16 +8,16 @@ yarn add typed-merge-refs
 
 ## Example
 
-```
-import { forwardRef } from 'react'
-import mergeRefs from 'typed-merge-refs'
+```js
+import { forwardRef } from 'react';
+import mergeRefs from 'typed-merge-refs';
 
 function Example(props, ref) {
-  const wrapper = React.useRef()
-  return <div ref={mergeRefs(ref, wrapper)} />
+  const wrapper = React.useRef();
+  return <div ref={mergeRefs(ref, wrapper)} />;
 }
 
-export default forwardRef(Example)
+export default forwardRef(Example);
 ```
 
 ## License
