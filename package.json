@@ -1,0 +1,17 @@
+{
+  "name": "typed-merge-refs",
+  "version": "0.0.3",
+  "description": "Typed React merge refs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "repository": "https://github.com/dutzi/typed-merge-refs",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^13.1.1",
+    "@types/react": "^16.9.17",
+    "typescript": "^3.7.4"
+  }
+}
